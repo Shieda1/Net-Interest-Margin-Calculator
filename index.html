@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Net Interest Margin Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="netInterestMarginRadio" name="variables" checked>
+  <label for="netInterestMarginRadio">Net Interest Margin</label>
+
+  <input type="radio" id="investmentReturnsRadio" name="variables">
+  <label for="investmentReturnsRadio">Investment Returns</label>
+
+  <input type="radio" id="interestExpensesRadio" name="variables">
+  <label for="interestExpensesRadio">Interest Expenses</label>
+
+  <input type="radio" id="averageEarningAssetsRadio" name="variables">
+  <label for="averageEarningAssetsRadio">Average Earning Assets</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Investment Returns</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Interest Expenses</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Average Earning Assets</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
